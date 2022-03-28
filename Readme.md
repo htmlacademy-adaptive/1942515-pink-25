@@ -1,7 +1,7 @@
 # Личный проект «Пинк»
 
 - Студент: [Владимир Михайленко](https://up.htmlacademy.ru/adaptive/25/user/1942515).
-- Наставник: [Анна Лисененкова] (https://htmlacademy.ru/profile/ankhena).
+- Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
