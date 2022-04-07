@@ -29,32 +29,37 @@
       </nav>
     </header>
     <main class="form-main">
-      <section class="form-manage">
-        <h2 class="visually-hidden">Основные данные</h2>
-        <div class="form-manage__wrapper">
-          <p class="form-manage__intro">
-            Поделитесь своей историей и получите шанс выиграть ценный приз —
-            1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
-          </p>
+      <div class="form-manage__wrapper">
+        <p class="form-manage__intro">
+          Поделитесь своей историей и получите шанс выиграть ценный приз —
+          1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
+        </p>
+      <form class="form-container" action="https://echo.htmlacademy.ru" method="post">
+      <ul class="form-manage">
+        <li class="form-manage__item">
           <span class="soname">Фамилия</span >
-         <input
+           <input
             class="form-manage__userdata"
             type="text"
             placeholder="Укажите фамилию *"
             required />
-          <span class="soname">Имя</span >
+        </li>
+        <li class="form-manage__item">
+        <span class="soname">Имя</span >
          <input
             class="form-manage__userdata"
             type="text"
             placeholder="Введите ваше имя *"
             required />
+        </li>
+        <li class="form-manage__item">
           <span class="soname">Отчество</span >
           <input
             class="form-manage__userdata"
             type="text"
             placeholder="Ну и отчество тоже"/>
-        </div>
-      </section>
+        </li>
+      </ul>
       <section class="progress">
         <h2 class="visually-hidden">Достижения</h2>
           <fieldset class="progress__progress-field">
@@ -177,6 +182,7 @@
             </ul>
           </fieldset>
       </section>
+    </form>
       <label class="form-main__emotions" for="emotions-text">Опишите свои эмоции</label>
         <textarea id="emotions-text" rows="6" cols="23" placeholder="Можно прям в красках,не стесняясь в выражениях"></textarea>
         <button class="form-main__form-button" type="submit">Отправить форму</button>
