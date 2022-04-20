@@ -1,0 +1,80 @@
+.reviews {
+  background-color: #ffffff;
+}
+
+.reviews__screen {
+  width: 157px;
+  height: 280px;
+  position: relative;
+  background-image: url("/img/svg-iphone 3.svg");
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+
+.reviews__screen::after {
+  content: url("/img/svg-trash-box-iphone screen-2.svg");
+  position: absolute;
+  top: 33px;
+  left: 10px;
+}
+
+.reviews__wrapper {
+  padding: 50px 20px 60px 20px;
+}
+
+.reviews__author {
+  display: none;
+}
+
+.reviews__list {
+  margin: 0;
+  list-style-type: none;
+}
+
+.reviews_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.reviews__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.reviews__buttons {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 112px;
+}
+
+.reviews__item {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin-right: 19px;
+}
+
+.reviews__toggle {
+  width: 12px;
+  height: 12px;
+  background-image: url("/img/svg-review-slider.svg");
+  background-repeat: no-repeat;
+  border: none;
+  margin-right: 19px;
+}
+
+.reviews__toggle--current {
+  position: absolute;
+  top: 10px;
+  background-image: url("/img/svg-review-toggle.svg");
+  background-repeat: no-repeat;
+  border: none;
+  margin-right: 19px;
+}
