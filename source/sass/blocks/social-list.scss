@@ -1,0 +1,34 @@
+.social-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.social-list__item {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  margin-right: 9px;
+  padding: 18px;
+}
+
+.social-links {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: 20px;
+  bottom: 0;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.social-links--vk {
+  background-image: url("../img/svg-vk.svg");
+}
+
+.social-links--telegram {
+  background-image: url("../img/svg-telegramm.svg");
+}
+
+.social-links--youtube {
+  background-image: url("../img/svg-youtube.svg");
+}

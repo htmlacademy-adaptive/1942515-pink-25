@@ -85,7 +85,7 @@
   background: #ffffff;
   border: 2px solid #e5e5e5;
   border-left: none;
-  background-image: url("/img/svg-yes.svg");
+  background-image: url("../img/svg-yes.svg");
   background-repeat: no-repeat;
   background-position: 1px 25px;
   padding-right: 17px;
@@ -96,7 +96,7 @@
   background: #ffffff;
   border: 2px solid #e5e5e5;
   border-left: none;
-  background-image: url("/img/svg-no.svg");
+  background-image: url("../img/svg-no.svg");
   background-repeat: no-repeat;
   background-position: 1px 25px;
   padding-right: 17px;
@@ -120,7 +120,7 @@
 .price-table__toggle {
   width: 12px;
   height: 12px;
-  background-image: url("/img/svg-review-slider.svg");
+  background-image: url("../img/svg-review-slider.svg");
   background-repeat: no-repeat;
   border: none;
   margin-right: 19px;
@@ -129,7 +129,7 @@
 .price-table__toggle--current {
   position: absolute;
   top: 10px;
-  background-image: url("/img/svg-review-toggle.svg");
+  background-image: url("../img/svg-review-toggle.svg");
   background-repeat: no-repeat;
   border: none;
   margin-right: 19px;

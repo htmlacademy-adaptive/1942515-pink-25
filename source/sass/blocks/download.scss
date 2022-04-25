@@ -1,8 +1,8 @@
 .download {
-  display: flex;
   margin: 0;
   padding: 0;
   width: 320px;
+  z-index: -1;
 }
 
 .download__slogan {
@@ -19,7 +19,7 @@
 
 .download__phone-image {
   min-height: 286px;
-  background-image: url("/img/png-background-phone.png");
+  background-image: url("../img/png-background-phone.png");
   background-repeat: no-repeat;
   background-position: 0;
   overflow: hidden;
@@ -36,7 +36,7 @@
   padding-bottom: 38px;
 }
 
-.download-link-block {
+.download__link-block {
   width: 280px;
   text-align: center;
   margin-left: 20px;
@@ -81,21 +81,21 @@
 .download__item--apple {
   width: 47px;
   height: 56px;
-  background-image: url("/img/svg-apple-logo.svg");
+  background-image: url("../img/svg-apple-logo.svg");
 }
 
 .download__item--android {
   margin-top: 6px;
   width: 43px;
   height: 47px;
-  background-image: url("/img/svg-android-logo.svg");
+  background-image: url("../img/svg-android-logo.svg");
 }
 
 .download__item--windows {
   width: 44px;
   height: 41px;
   margin-top: 12px;
-  background-image: url("/img/svg-microsoft-logo.svg");
+  background-image: url("../img/svg-microsoft-logo.svg");
 }
 
 .download__description {

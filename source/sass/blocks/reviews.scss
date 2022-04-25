@@ -6,13 +6,13 @@
   width: 157px;
   height: 280px;
   position: relative;
-  background-image: url("/img/svg-iphone 3.svg");
+  background-image: url("../img/svg-iphone 3.svg");
   background-repeat: no-repeat;
   margin-left: 100px;
 }
 
 .reviews__screen::after {
-  content: url("/img/svg-trash-box-iphone screen-2.svg");
+  content: url("../img/svg-trash-box-iphone screen-2.svg");
   position: absolute;
   top: 33px;
   left: 10px;
@@ -64,7 +64,7 @@
 .reviews__toggle {
   width: 12px;
   height: 12px;
-  background-image: url("/img/svg-review-slider.svg");
+  background-image: url("../img/svg-review-slider.svg");
   background-repeat: no-repeat;
   border: none;
   margin-right: 19px;
@@ -73,7 +73,7 @@
 .reviews__toggle--current {
   position: absolute;
   top: 10px;
-  background-image: url("/img/svg-review-toggle.svg");
+  background-image: url("../img/svg-review-toggle.svg");
   background-repeat: no-repeat;
   border: none;
   margin-right: 19px;

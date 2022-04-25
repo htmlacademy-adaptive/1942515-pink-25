@@ -1,0 +1,27 @@
+.main-footer__wrapper {
+  background-color: #ffffff;
+  padding: 70px 40px;
+}
+
+.main-footer__logo {
+  display: flex;
+}
+
+.main-footer__development {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.main-footer__develop {
+  margin-right: 15px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.main-footer__html-academy-logo {
+  fill: #d22856;
+  align-items: center;
+}
