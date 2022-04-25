@@ -2,11 +2,6 @@
   width: 320px;
 }
 
-.main-header__logo-pink {
-  padding-top: 20px;
-  z-index: 1;
-}
-
 .main-nav__toggle {
   position: absolute;
   top: 25px;
@@ -16,16 +11,11 @@
   background: transparent;
   border-radius: 10px;
   border: none;
+  z-index: 15;
 }
 
-.main-nav__toggle--close {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  box-shadow: none;
-}
 
-.main-nav__toggle--close::before {
+.main-nav__toggle:active::before {
   content:'';
   position: absolute;
   width: 30px;
@@ -35,7 +25,7 @@
   transform: rotate(45deg);
 }
 
-.main-nav__toggle--close::after {
+.main-nav__toggle:active::after {
   content:'';
   position: absolute;
   width: 30px;
