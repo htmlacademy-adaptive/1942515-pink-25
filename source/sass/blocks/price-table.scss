@@ -2,31 +2,13 @@
   background-color: #ffffff;
 }
 
-.multi-table {
+.price-table__multi-table {
   display: none;
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
 
-.table-slider {
-  margin: 0  auto;
-  display: flex;
-  width: 276px;
-  height: 277px;
-  margin-bottom: 100px;
-}
-
-.body-table-slider {
-  width: 256px;
-  height: 59px;
-  border-collapse: collapse;
-}
-
-.header-table-slider {
-  background-color: #283645;
-}
-
-.cell-standard {
+.price-table__cell-standard {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -38,7 +20,7 @@
   overflow: hidden;
 }
 
-.table-standard {
+.price-table__table-standard {
   position: absolute;
   left: 95px;
   top: 3px;
@@ -50,7 +32,7 @@
   color: #ffffff;
 }
 
-.table-price {
+.price-table__table-price {
   position: absolute;
   top: 26px;
   left: 95px;
@@ -61,14 +43,14 @@
   color: #ffffff;
 }
 
-.hit {
+.price-table__hit {
   width: 100px;
   background-color: rgb(210, 40, 86, 0.73);
   background-repeat: no-repeat;
   transform: rotateZ(-45deg)  translate(-15px, -22px);
 }
 
-.table-data {
+.price-table__table-data {
   width: 150px;
   background: #ffffff;
   border: 2px solid #e5e5e5;
@@ -80,7 +62,7 @@
   padding: 25px 0 25px 20px;
 }
 
-.check-yes {
+.price-table__check-yes {
   width: 27px;
   background: #ffffff;
   border: 2px solid #e5e5e5;
@@ -91,7 +73,7 @@
   padding-right: 17px;
 }
 
-.check-no {
+.price-table__check-no {
   width: 27px;
   background: #ffffff;
   border: 2px solid #e5e5e5;

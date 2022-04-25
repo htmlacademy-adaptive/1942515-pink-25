@@ -1,9 +1,9 @@
-.modal-container {
+.modal {
   display: none;
   padding: 44px 22px 52px 22px;
 }
 
-.modal-container__modal-title {
+.modal__modal-title {
   font-weight: 700;
   font-style: bold;
   font-size: 18px;
@@ -14,7 +14,7 @@
   margin-bottom: 37px;
 }
 
-.modal-container__modal-description {
+.modal__modal-description {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -25,7 +25,7 @@
   margin-bottom: 93px;
 }
 
-.modal-container__modal-button {
+.modal__modal-button {
   width: 276px;
   height: 59px;
   background-color: #2aab6d;
@@ -39,4 +39,5 @@
   margin: 0;
   margin-top: 52px;
   margin-bottom: 69px;
+  text-transform: uppercase;
 }

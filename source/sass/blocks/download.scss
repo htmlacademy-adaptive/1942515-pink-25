@@ -36,11 +36,6 @@
   padding-bottom: 38px;
 }
 
-.download__link-block {
-  width: 280px;
-  text-align: center;
-  margin-left: 20px;
-}
 
 .download__link {
   display: block;
@@ -54,6 +49,12 @@
   border: 3px solid #ffffff;
   border-radius: 29px;
   margin-bottom: 28px;
+}
+
+.download__link--downloaded {
+  display: block;
+  margin: 0  auto;
+  align-items: center;
 }
 
 .download__list {

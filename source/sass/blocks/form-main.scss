@@ -5,6 +5,7 @@
   font-weight: 400;
   font-style: normal;
   color: #283645;
+  font-family: inherit;
 }
 
 .form-main__intro {
@@ -25,17 +26,6 @@
   margin-left: 23px;
 }
 
-.form-manage__item {
-  margin-bottom: 29px;
-}
-
-.form-manage__userdata {
-  width: 256px;
-  height: 59px;
-  padding-left: 10px;
-  border: 2px solid #e5e5e5;
-}
-
 .form-main__emotions {
   font-size: 14px;
   line-height: 18px;
@@ -43,6 +33,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 22px;
+  font-family: inherit;
 }
 
 .form-main__form-button {
@@ -58,6 +49,7 @@
   color: #ffffff;
   margin-top: 52px;
   margin-bottom: 69px;
+  font-family: inherit;
 }
 
 .form-main__necessarily-fields {
@@ -65,36 +57,6 @@
   line-height: 30px;
   font-weight: 400;
   text-align: center;
-}
-
-.form-apps {
-  padding: 42px 10px 4px 10px;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.form-apps__app {
-  border: none;
-}
-
-.form-apps__legend-app {
-  font-size: 14px;
-  color: #d22856;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-}
-
-.form-apps__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.form-apps__item {
-  margin-bottom: 38px;
 }
 
 .form-main__necessarily-star {
