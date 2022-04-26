@@ -1,9 +1,12 @@
 .price-table {
+  background-color: #f2f2f2;
+}
+
+.price-table__wrapper {
   background-color: #ffffff;
 }
 
-.price-table__multi-table {
-  display: none;
+.price-table__big {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
@@ -90,6 +93,7 @@
   align-items: center;
   list-style-type: none;
   margin-left: 112px;
+  background-color: #ffffff;
 }
 
 .price-table__item {
@@ -106,6 +110,7 @@
   background-repeat: no-repeat;
   border: none;
   margin-right: 19px;
+  background-color: #ffffff;
 }
 
 .price-table__toggle--current {
