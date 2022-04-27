@@ -8,8 +8,8 @@
 @font-face {
   font-family: "OpenSans";
   src: url("../fonts/opensansbold.woff2") format("woff2"), url("..fonts/opensansbold.woff") format("woff");
-  font-weight: normal;
-  font-style: bold;
+  font-weight: bold;
+  font-style: normal;
   font-display: swap;
 }
 @font-face {
@@ -35,7 +35,7 @@
   flex-direction: column;
   width: 320px;
   margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 
 .page__img-wrap {
@@ -325,8 +325,8 @@
   position: absolute;
   left: 95px;
   top: 3px;
-  font-weight: 700px;
-  font-style: bold;
+  font-weight: 700;
+  font-style: normal;
   font-size: 16px;
   line-height: 30px;
   text-transform: uppercase;
@@ -337,7 +337,7 @@
   position: absolute;
   top: 26px;
   left: 95px;
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
@@ -516,7 +516,7 @@
   height: 36px;
   font-size: 12px;
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
@@ -529,7 +529,7 @@
 .user-photo__user-name-photo {
   font-size: 14px;
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
   line-height: 24px;
   color: #283645;
 }
@@ -700,7 +700,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
   color: #ffffff;
   margin-top: 52px;
   margin-bottom: 69px;
@@ -718,6 +718,10 @@
   color: #d22856;
 }
 
+.form-main__area {
+  font-family: inherit;
+}
+
 .progress {
   padding: 42px 10px 55px 10px;
   font-size: 18px;
@@ -728,6 +732,7 @@
 
 .progress__progress-field {
   border: none;
+  font-family: inherit;
 }
 
 .progress__progress-field--legend {
@@ -763,7 +768,7 @@
 
 .modal__modal-title {
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
@@ -792,12 +797,13 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
   color: #ffffff;
   margin: 0;
   margin-top: 52px;
   margin-bottom: 69px;
   text-transform: uppercase;
+  font-family: inherit;
 }
 
 .main-nav {
@@ -905,6 +911,7 @@
   height: 59px;
   padding-left: 10px;
   border: 2px solid #e5e5e5;
+  font-family: inherit;
 }
 
 .form-manage {
@@ -923,6 +930,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
+  font-family: inherit;
 }
 
 .form-apps__list {
