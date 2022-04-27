@@ -39,7 +39,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
   color: #ffffff;
   margin-top: 52px;
   margin-bottom: 69px;
@@ -55,4 +55,8 @@
 
 .form-main__necessarily-star {
   color: #d22856;
+}
+
+.form-main__area {
+  font-family: inherit;
 }
