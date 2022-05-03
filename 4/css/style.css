@@ -1014,6 +1014,10 @@
   font-family: "OpenSans", sans-serif;
 }
 
+.personal-data__input-phone {
+  font-family: inherit;
+}
+
 .personal-data__input-phone::placeholder {
   font-family: inherit;
 }
