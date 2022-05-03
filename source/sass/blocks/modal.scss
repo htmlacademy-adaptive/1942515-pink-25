@@ -1,0 +1,44 @@
+.modal {
+  display: none;
+  padding: 44px 22px 52px 22px;
+}
+
+.modal__modal-title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.modal__modal-description {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 93px;
+}
+
+.modal__modal-button {
+  width: 276px;
+  height: 59px;
+  background-color: #2aab6d;
+  border: 2px solid #2aab6d;
+  border-radius: 1px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 52px;
+  margin-bottom: 69px;
+  text-transform: uppercase;
+  font-family: inherit;
+}

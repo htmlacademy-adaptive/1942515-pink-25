@@ -1,0 +1,31 @@
+.progress {
+  padding: 42px 10px 55px 10px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.progress__progress-field {
+  border: none;
+  font-family: inherit;
+}
+
+.progress__progress-field--legend {
+  width: 218px;
+  font-size: 13px;
+  color: #d22856;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 44px;
+}
+
+.progress__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.progress__item {
+  margin-bottom: 47px;
+}

@@ -1,0 +1,12 @@
+.social-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.social-list__item {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  margin-right: 9px;
+  padding: 18px;
+}

@@ -1,0 +1,123 @@
+.price-table {
+  background-color: #f2f2f2;
+}
+
+.price-table__wrapper {
+  background-color: #ffffff;
+}
+
+.price-table__big {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.price-table__cell-standard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 94px;
+  background-color: #283645;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.price-table__table-standard {
+  position: absolute;
+  left: 95px;
+  top: 3px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.price-table__table-price {
+  position: absolute;
+  top: 26px;
+  left: 95px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.price-table__hit {
+  width: 100px;
+  background-color: rgb(210, 40, 86, 0.73);
+  background-repeat: no-repeat;
+  transform: rotateZ(-45deg)  translate(-15px, -22px);
+}
+
+.price-table__table-data {
+  width: 150px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-right: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+  padding: 25px 0 25px 20px;
+}
+
+.price-table__check-yes {
+  width: 27px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-left: none;
+  background-image: url("../img/svg-yes.svg");
+  background-repeat: no-repeat;
+  background-position: 1px 25px;
+  padding-right: 17px;
+}
+
+.price-table__check-no {
+  width: 27px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-left: none;
+  background-image: url("../img/svg-no.svg");
+  background-repeat: no-repeat;
+  background-position: 1px 25px;
+  padding-right: 17px;
+}
+
+.price-table__buttons {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 112px;
+  background-color: #ffffff;
+}
+
+.price-table__item {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin-right: 19px;
+}
+
+.price-table__toggle {
+  width: 12px;
+  height: 12px;
+  background-image: url("../img/svg-review-slider.svg");
+  background-repeat: no-repeat;
+  border: none;
+  margin-right: 19px;
+  background-color: #ffffff;
+}
+
+.price-table__toggle--current {
+  position: absolute;
+  top: 10px;
+  background-image: url("../img/svg-review-toggle.svg");
+  background-repeat: no-repeat;
+  border: none;
+  margin-right: 19px;
+}

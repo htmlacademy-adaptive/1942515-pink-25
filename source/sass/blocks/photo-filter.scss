@@ -1,0 +1,83 @@
+.photo-filter {
+  padding: 0 20px;
+  background-color: #f2f2f2;
+}
+
+.photo-filter__photo-filter-description {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 72px;
+}
+
+.photo-filter__photo-filter-image {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 42px;
+}
+
+.photo-filter__filter-buttons-list {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 39px;
+}
+
+.photo-filter__filter-buttons-item {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin-right: 35px;
+}
+
+.photo-filter__photo-filter-buttons {
+  position: absolute;
+  background-repeat: no-repeat;
+  border: none;
+  width: 44px;
+  height: 44px;
+}
+
+.photo-filter__photo-filter-buttons--crop {
+  background-image: url("../img/svg-crop.svg");
+}
+
+.photo-filter__photo-filter-buttons--fill {
+  background-image: url("../img/svg-fill.svg");
+}
+
+.photo-filter__photo-filter-buttons--contrast {
+  background-image: url("../img/svg-contrast.svg");
+  top: 5px;
+}
+
+.photo-filter__range-scale {
+  position: relative;
+  width: 240px;
+  height: 4px;
+  margin-top: 26px;
+  background-color: #283645;
+  padding: 0;
+  margin-bottom: 73px;
+}
+
+.photo-filter__range-toggle {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 193px;
+  background-color: #ffffff;
+  border: 2px solid #d22856;
+  border-radius: 50%;
+  top: -5px;
+}
+
+.photo-filter__submit-button {
+  border: 3px solid #d22856;
+  border-radius: 30px;
+  color: #d22856;
+  padding: 15px 90px;
+}
