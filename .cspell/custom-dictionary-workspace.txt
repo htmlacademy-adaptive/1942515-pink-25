@@ -1,2 +1,6 @@
 # Custom Dictionary Words
 сэлфи
+opensans
+opensansbold
+opensanslight
+userdata
